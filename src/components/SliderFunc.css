@@ -1,0 +1,84 @@
+.MainSlider{
+    height: 600px;
+    width: 91%;
+    position: relative;
+    bottom: 50px;
+    margin:55px;
+    left: 5px;
+}.MainSlider img{    
+    border-radius:20px;
+    height: 240px;
+    width: 240px;  
+    position: relative;
+    left: 25px;
+}.MainSlider img:hover{    
+    border-radius: 25px;
+    cursor: pointer;
+    height: 270px;
+    width: 270px;    
+    transform: scale(1.1);
+    transition: transform 500ms;
+    left: 5px;
+}
+
+.line-indicator{
+    position: relative;
+    top: 300px;
+}.line-indicator li {     
+    background: lightgray;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.X_1{
+    position: relative;
+    cursor: pointer;
+    bottom:70px;
+    left: 1187px;
+    width: 40px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transform: rotate(45deg) translate(35px, -35px);
+}.X_2{
+    position: relative;   
+    cursor: pointer;
+    bottom: 76px;
+    left: 1187px;    
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    width: 40px;
+    height: 6px;
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+.CN{
+    position: relative;
+    left: 15px;
+    top: 15px;
+    margin: 15px;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+}
+
+.CenterTxt{
+    font-size: 20px;
+    position: relative;
+    left: 587px;
+    bottom: 30px;
+    color:white;
+}
+
+.To_res{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    left: 1057px;
+    bottom: 92px;
+    cursor: pointer;
+}

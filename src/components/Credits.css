@@ -1,0 +1,36 @@
+.CreditsWord{
+    font-size: 60px;
+    font-family:sans-serif;
+    color:white;
+    margin-left: -5px;
+    padding:73px;
+}
+
+.CompanyName{
+    font-size: 160px;
+    font-family:sans-serif;
+    opacity: 0.2;
+    color:white;
+    position: relative;
+    left: 90px;
+    bottom: 200px;
+}
+
+.Closer{
+    text-align: center;
+    font-size: large;
+    color:white;
+}
+
+.To_Resurs{
+    position: relative;
+    top:10px;
+    right: 100px;
+}
+
+.X{
+    position: relative;
+    top: 30px;
+}
+
+

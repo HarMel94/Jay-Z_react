@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    height:100%; 
+}
+
+body:hover .SkipButton{
+    visibility: unset;
+    transform: translateY(50%);
+    transition: 0.5s;
+}
+
+.MainText{    
+    color:white;
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px; 
+    margin-top: 20px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SecondText{
+    color:white;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 0.5px;
+    letter-spacing: 1px; 
+    position: absolute;
+    left: 585px;
+    top: 245px;
+}
+
+.CenterButton{  
+    position:relative;
+    top:-80px;
+    text-align: center;
+}.CenterButton button{    
+    height: 80px;
+    width: 80px;
+    border-radius:50px;
+    background-color:Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+/* .CenterButton button:focus{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    cursor:default; 
+} */
+
+.arrow{
+    margin-right: 10%; 
+    border: solid rgb(255, 255, 255);
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 9px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.SkipButton{
+    visibility: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 60px;
+    margin-top: 80px;
+}.SkipButton button{
+    color:rgb(255, 255, 255);
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.5px; 
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;    
+    border: 0px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+ .footer{
+    color:white;
+    position:relative;
+    top:75px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    text-align: center;
+} 
+
+
+
+
+/* //////   ANIMAEITED SWITCHING */
+ 
+/* .container {   
+    position: relative;
+  }
+  
+  .page {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+  }
+  
+  .page-enter {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  
+  .page-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .page-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .page-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
+   */

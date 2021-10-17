@@ -1,0 +1,172 @@
+body{
+    background: #000000;  
+    background: -webkit-linear-gradient(to right, #434343, #000000);  
+    background: linear-gradient(to right, #434343, #000000);
+    overflow:hidden; 
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Header{    
+    color:white;
+    margin: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}.Header div{
+    cursor: pointer;
+}
+
+.Resurs{
+    position: relative;
+    right: 100px;
+    bottom: 30px;
+}
+
+.Burger{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    top: 20px;
+    left: 80px;
+}.BurgerDiv{
+    width: 40px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+}.BurgerDiv::before,
+  .BurgerDiv::after{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: 0.3s;
+}.BurgerDiv::before {
+    transform: translateY(-16px);
+}.BurgerDiv::after {
+    transform: translateY(16px);
+}.Burger:hover .BurgerDiv {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}.Burger:hover .BurgerDiv::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}.Burger:hover .BurgerDiv::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+
+.CenterImg{
+    margin: 35px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 1250px;  
+    position: relative;
+    left: 20px;
+    color:white
+}.CenterImg img{
+    height: 250px;
+    border-radius: 20px;
+}.CenterImg img:hover{
+  box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
+  border-radius: 40px;
+  cursor: pointer;
+  height: 350px;
+  width: 350px;    
+  transform: scale(1.1);
+  transition: box-shadow 400ms, transform 500ms;
+}
+  
+.number{
+    position: relative;
+    font-size: 80px;
+    left: 10px;
+    color:rgb(179, 107, 107);
+    bottom: 160px;
+}  
+.line{   
+    background-color:rgb(179, 107, 107);
+    position:relative;
+    width: 230px;
+    height: 3px;
+    bottom: 180px;
+    left: 10px;
+}
+.text{
+    color:rgb(179, 107, 107);
+    position:relative;
+    font-size: 25px;
+    bottom: 180px;
+    left: 10px;
+}
+
+.Map{
+    position:fixed; 
+    top:552px;
+    left: 48%;
+}.Map img{
+    width: 50px;
+    height: 50px;
+}.Map img:hover{
+    border-radius:40px 40px 10px 10px;
+    position: fixed;
+    top:510px;
+    left: 47%;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+    transition: box-shadow 400ms, transform 200ms;
+}
+
+.Credits{
+    position:fixed; 
+    top: 571px;
+    left: 62px;
+    cursor: pointer;
+    /* margin-left: 60px; */
+}.Credits button{
+    color:rgb(255, 255, 255);
+    font-size: 10px;
+    letter-spacing: 1px; 
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;    
+    border: 0px;
+}.Credits:after{    
+    background: none repeat scroll 0 0 transparent;
+    bottom: -2px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}.Credits:hover:after{ 
+    width: 100%; 
+    left: 0; 
+}
+
+.Line{
+    background-color:rgb(255, 255, 255);
+    position:fixed;
+    height: 20px;
+    top: 608px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}

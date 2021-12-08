@@ -15,7 +15,6 @@ export default function Home(){
     const history_02 = useHistory()
 
     return(
-
         <div>
 
             <div className="Header">

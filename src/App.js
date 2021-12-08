@@ -7,43 +7,9 @@ import SliderFunc from "./components/SliderFunc";
 import Home from "./components/Home";
 import Video from "./components/Video";
 
-//import { CSSTransition } from "react-transition-group";
-
-
 export default function App() {
-
-  // let routes = [
-  //   {path: "/", Component: Main},
-  //   {path: "/home", Component: Home},
-  // ]
-
-  return(
-
-    // <BrowserRouter>                   //////   ANIMAEITED SWITCHING
-    //   <div>
-    //     <div>
-    //       <NavLink to="/">Main00</NavLink>
-    //       <NavLink to="/home">Home00</NavLink>
-    //     </div>
-    //     {routes.map(({path,Component}) =>
-    //       <Route key={path} exact path={path}>
-    //         {({match}) =>
-    //           <CSSTransition
-    //             in={match != null}
-    //             timeout={1000}
-    //             classNames="page"
-    //             unmountOnExit                
-    //           >
-    //             <Component/>
-    //           </CSSTransition>
-    //         }
-    //       </Route>
-    //     )}
-    //   </div>
-    // </BrowserRouter>
-   
+  return(   
     <Router>
-
       <div className = 'App'>
 
         <Switch>          
@@ -55,7 +21,6 @@ export default function App() {
         </Switch>
 
       </div>
-
     </Router>
   );
 };

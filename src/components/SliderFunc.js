@@ -51,7 +51,7 @@ export default function SliderFunc(){
                 </div>
             </div>
 
-            <div onClick={() => history_02.push("/home")}>   
+            <div onClick={() => history_02.push("/home")} className="MainX">   
                 <div onClick={() => history_02.push("/home")} className="X_1"></div>
                 <div onClick={() => history_02.push("/home")} className="X_2"></div>
             </div>

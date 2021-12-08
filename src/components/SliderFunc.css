@@ -12,13 +12,13 @@
     position: relative;
     left: 25px;
 }.MainSlider img:hover{    
-    border-radius: 25px;
+    /* border-radius: 25px;
     cursor: pointer;
     height: 270px;
     width: 270px;    
     transform: scale(1.1);
     transition: transform 500ms;
-    left: 5px;
+    left: 5px; */
 }
 
 .line-indicator{
@@ -30,6 +30,11 @@
     position: absolute;
     top: 0;
     bottom: 0;
+}
+
+.MainX{
+    position: relative;
+    left: 150px;
 }
 
 .X_1{
@@ -69,7 +74,7 @@
 .CenterTxt{
     font-size: 20px;
     position: relative;
-    left: 587px;
+    left: 661px;
     bottom: 30px;
     color:white;
 }
@@ -78,7 +83,7 @@
     color:white;
     font-size: 20px;
     position: relative;
-    left: 1057px;
+    left: 1205px;
     bottom: 92px;
     cursor: pointer;
 }

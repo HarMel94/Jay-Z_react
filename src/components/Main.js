@@ -11,7 +11,6 @@ export default function Main() {
   const history = useHistory()
 
   return(
-
     <div className="App">
 
       <video className="BackVideo" autoPlay loop muted
